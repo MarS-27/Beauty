@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fix_size {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.container {    
+    background: #EFEFEF;;
+    font-family: "Roboto";
+}
+
+/* header */
+
+.nav {
+    width: 450px;
+    padding: 17px 0;
+    margin: 0 auto;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 16px;  
+}
+
+.link {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}
+
+.header_background {
+    background: #FFFFFF;
+}
+
+.header_info {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Roboto-Bold";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+}
+
+.tel_number {
+    margin-top: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.button_text {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.line {
+    border: 1px solid #EFEFEF;
+    margin: 0;
+}
+
+.nav_bottom {
+    width: 680px;
+    padding: 30px 0;
+}
+
+.nav_item_bottom {
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+.link_bottom {
+    color: #000000;
+}
+
+.nav_first {
+    margin-left: 0;
+}
+
+/* main */
+
+.main_section {
+    padding: 192px 0;
+    background-image: url(../images/main_background.jpg);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.main_title {
+    margin-bottom: 50px;
+    font-family: "Roboto-Bold";
+    font-size: 48px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.text_info {
+    width: 308px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.button_red {
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+}
+
+.button_red_text {
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
